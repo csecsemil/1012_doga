@@ -13,3 +13,5 @@ festekfelulet = teljesfelulet / 8
 
 print(f"A teljes festendő felület: {teljesfelulet:.2f} m^2" )
 print(f"A szükséges festék mennyisége: {festekfelulet:.2f} m^2" )
+
+print('Viszlát!')
