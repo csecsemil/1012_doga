@@ -1,0 +1,42 @@
+1. Feladat: Szobafestés kalkulátor – festes.py
+Készíts egy programot, amely kiszámolja, hogy egy téglalap alakú szoba falainak és mennyezetének befestéséhez hány liter festékre van szükség.
+1.	Kérd be a felhasználótól a szoba hosszát, szélességét és magasságát méterben (m). Az adatokat nem kell ellenőrizni!!
+2.	Számítsd ki a négy fal teljes felületét. Segítség: Falfelület = 2 * hossz * magasság + 2 * szélesség * magasság
+3.	Számítsd ki a mennyezet területét. Segítség: Mennyezet = hossz * szélesség
+4.	Számítsd ki a teljes festendő felületet. Segítség: Teljes felület = falfelület + mennyezet
+5.	Egy liter festék 8 m² felület befestésére elegendő. Számítsd ki, hány liter festékre van szükség.
+6.	A teljes festendő felületet és a szükséges festékmennyiséget két tizedesjegyre kerekítve jelenítsd meg.
+Minta a program futására:
+Szobafestés kalkulátor
+----------------------
+Adja meg a szoba hosszát (m): 5
+Adja meg a szoba szélességét (m): 4
+Adja meg a szoba magasságát (m): 2.8
+A teljes festendő felület: 70.40 m^2
+A szükséges festék mennyisége: 8.80 liter
+
+
+
+
+2. Feladat: Csomagküldési költség kalkulátor – csomag.py
+Írj egy programot, amely kiszámolja egy csomag feladásának várható költségét. A szállítás díja függ a csomag tömegétől és a választott kézbesítési módtól.
+
+1.	Kérd be a felhasználótól a csomag tömegét kilogrammban és a kézbesítés módját (normál vagy expressz). A csomag tömege ne lehessen 0 vagy negatív, a szöveges adatokat ellenőrzötten kérd be, az órai feladathoz hasonlóan (addig, amíg nem jó az érték).
+
+2.	A csomag szállításának alapdíja 500 Ft kilogrammonként.
+
+3.	Számítsd ki a csomag tömege alapján az alap szállítási költséget.
+o	Segítség: Alapköltség = tömeg * 500
+
+4.	Ellenőrizd a megadott kézbesítési módot: normál esetén nincs további költség, expressz esetén 1500 Ft expressz díjat kell hozzáadni.
+
+5.	Számítsd ki a csomagküldés teljes költségét.
+
+6.	A végeredményt egész számra kerekítve jelenítsd meg.
+Minta a program futására:
+Csomagküldési költség kalkulátor
+--------------------------------
+Adja meg a csomag tömegét (kg): 4.5
+Kézbesítés módja (normal/expressz): expressz
+
+A csomagküldés teljes költsége: 3750 Ft
